@@ -1,0 +1,259 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="6KFotTv11bjVtl8q0oAf">
+    <mxGraphModel dx="1188" dy="1481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KRyYbuU_Ymur50aShcai-1" value="Estudiante" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-2" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-4" value="Base de Datos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-5" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1" target="KRyYbuU_Ymur50aShcai-6">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="240" y="190" as="sourcePoint" />
+            <mxPoint x="340" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-6" value="Secuencia Normal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-7" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="610" y="190" as="sourcePoint" />
+            <mxPoint x="830" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KRyYbuU_Ymur50aShcai-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="600" as="sourcePoint" />
+            <mxPoint x="510" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="600" as="sourcePoint" />
+            <mxPoint x="270" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KRyYbuU_Ymur50aShcai-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="600" as="sourcePoint" />
+            <mxPoint x="749.71" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="sourcePoint" />
+            <mxPoint x="510" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-13" value="Accede a los mensajes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-14" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="320" as="sourcePoint" />
+            <mxPoint x="510" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-15" value="Devuelve lista de docentes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="280" as="sourcePoint" />
+            <mxPoint x="750" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-17" value="Consulta docentes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="340" as="sourcePoint" />
+            <mxPoint x="270" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-19" value="Muestra interfaz de los docentes" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="320" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="380" as="sourcePoint" />
+            <mxPoint x="510" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-21" value="Selecciona al docente" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="440" as="sourcePoint" />
+            <mxPoint x="270" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-25" value="Interfaz para redactar el mensaje, editar, adjuntar archivo y enviar mensaje" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="480" as="sourcePoint" />
+            <mxPoint x="750" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-32" value="Guardar mensaje" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="460" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-33" value="&lt;font size=&quot;3&quot;&gt;CUS-4-11&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-20" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-34" value="Estudiante" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-35" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-36" value="Base de Datos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-37" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1" target="KRyYbuU_Ymur50aShcai-38">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1130" y="190" as="sourcePoint" />
+            <mxPoint x="1230" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-38" value="Secuencia Normal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="180" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-39" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1500" y="190" as="sourcePoint" />
+            <mxPoint x="1720" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="730" as="sourcePoint" />
+            <mxPoint x="1400" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="730" as="sourcePoint" />
+            <mxPoint x="1160" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="730" as="sourcePoint" />
+            <mxPoint x="1639.71" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="250" as="sourcePoint" />
+            <mxPoint x="1400" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-44" value="Selecciona el mensaje a eliminar&amp;nbsp;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="230" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="280" as="sourcePoint" />
+            <mxPoint x="1640" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-48" value="Se avisa que se quiere eliminar un mensaje" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="260" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="320" as="sourcePoint" />
+            <mxPoint x="1160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-50" value="interfaz &quot;Estas Seguro de eliminar el mensaje?&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="290" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-59" value="&lt;font size=&quot;3&quot;&gt;CUS-4-12&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="-20" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1162.5" y="374.66" as="sourcePoint" />
+            <mxPoint x="1402.5" y="374.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-61" value="Selecciona el boton &quot;Aceptar&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="350" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="410" as="sourcePoint" />
+            <mxPoint x="1640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-63" value="Se elimina el mensaje" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="390" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="440" as="sourcePoint" />
+            <mxPoint x="1160" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-66" value="Interfaz: &quot;Se pudo eliminar el mensaje correctamente&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="410" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-74" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1" target="KRyYbuU_Ymur50aShcai-75">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="245" y="610" as="sourcePoint" />
+            <mxPoint x="345" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-75" value="Post Condicion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="600" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-76" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="615" y="610" as="sourcePoint" />
+            <mxPoint x="835" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-77" value="Sistema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="670" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-78" value="Base de Datos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="670" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-79" value="Estudiante" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="650" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-80" value="&lt;span id=&quot;docs-internal-guid-d3243e11-7fff-7ed5-5fd0-a0103a34d920&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Se podra enviar, adjuntar archivos y editar, un mensaje al docente&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="505" y="630" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-81" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1" target="KRyYbuU_Ymur50aShcai-82">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1100" y="520" as="sourcePoint" />
+            <mxPoint x="1200" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-82" value="Secuencia Excepciones" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="510" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KRyYbuU_Ymur50aShcai-83" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1470" y="520" as="sourcePoint" />
+            <mxPoint x="1690" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
